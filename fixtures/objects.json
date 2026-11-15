@@ -1,0 +1,85 @@
+{
+  "g-root": {
+    "id": "g-root",
+    "links": [
+      {
+        "title": "run",
+        "class": "H5L_TYPE_HARD",
+        "collection": "groups",
+        "id": "g-run"
+      },
+      {
+        "title": "shortcut",
+        "class": "H5L_TYPE_HARD",
+        "collection": "datasets",
+        "id": "d-observe"
+      },
+      {
+        "title": "lost",
+        "class": "H5L_TYPE_SOFT",
+        "h5path": "/missing"
+      },
+      {
+        "title": "partner",
+        "class": "H5L_TYPE_EXTERNAL",
+        "h5domain": "/outside/secret",
+        "h5path": "/data"
+      }
+    ]
+  },
+  "g-run": {
+    "id": "g-run",
+    "links": [
+      {
+        "title": "readings",
+        "class": "H5L_TYPE_HARD",
+        "collection": "datasets",
+        "id": "d-observe"
+      },
+      {
+        "title": "back",
+        "class": "H5L_TYPE_HARD",
+        "collection": "groups",
+        "id": "g-root"
+      }
+    ]
+  },
+  "d-observe": {
+    "id": "d-observe",
+    "shape": {
+      "class": "H5S_SIMPLE",
+      "dims": [
+        3,
+        2
+      ],
+      "maxdims": [
+        0,
+        2
+      ]
+    },
+    "type": {
+      "class": "H5T_COMPOUND",
+      "fields": [
+        {
+          "name": "value",
+          "type": "H5T_IEEE_F64LE"
+        },
+        {
+          "name": "quality",
+          "type": {
+            "class": "H5T_STRING",
+            "length": "H5T_VARIABLE",
+            "charSet": "H5T_CSET_UTF8"
+          }
+        }
+      ]
+    },
+    "creationProperties": {
+      "fillValue": {
+        "value": -999.0,
+        "quality": "unwritten"
+      }
+    },
+    "lastModified": 1794736800
+  }
+}

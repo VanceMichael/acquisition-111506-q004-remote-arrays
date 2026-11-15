@@ -1,0 +1,13 @@
+{
+  "sliceId": "manual-17",
+  "dataset": "d-17",
+  "selection": "[0:2,0:1]",
+  "values": [
+    [
+      1
+    ],
+    [
+      2
+    ]
+  ]
+}

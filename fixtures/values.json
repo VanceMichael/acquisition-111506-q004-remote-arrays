@@ -1,0 +1,32 @@
+[
+  [
+    {
+      "value": 1.5,
+      "quality": "ok"
+    },
+    {
+      "value": -999.0,
+      "quality": "unwritten"
+    }
+  ],
+  [
+    {
+      "value": 2.5,
+      "quality": "校准"
+    },
+    {
+      "value": 3.5,
+      "quality": "ok"
+    }
+  ],
+  [
+    {
+      "value": 4.5,
+      "quality": "ok"
+    },
+    {
+      "value": 5.5,
+      "quality": "ok"
+    }
+  ]
+]
